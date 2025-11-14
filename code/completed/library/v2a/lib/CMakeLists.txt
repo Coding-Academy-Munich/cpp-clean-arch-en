@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+
+add_library(library_v2a_lib Book.cpp Book.h
+        Member.cpp
+        Member.h
+        Utils.h
+        Utils.cpp
+        Library.cpp
+        Library.h)
+target_include_directories(library_v2a_lib PUBLIC .)
+target_link_libraries(library_v2a_lib PRIVATE library_data)
