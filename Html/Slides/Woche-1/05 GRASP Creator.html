@@ -13227,18 +13227,13 @@ more of the following apply:</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered" id="cell-id=d03b83f92b093ded">
-<div class="input">
-<div class="prompt input_prompt">In [1]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-c++"><pre><span></span><span class="c1">// ```cpp</span>
-<span class="c1">// World::World(const std::vector&lt;data::LocationData&gt;&amp; locationData)</span>
-<span class="c1">//     : World {locationData, locationData[0].name}</span>
-<span class="c1">// {}</span>
-<span class="c1">// ```</span>
+<div class="cell border-box-sizing text_cell rendered celltag_subslide" id="cell-id=cc55f9a7602115e7"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="n">World</span><span class="o">::</span><span class="n">World</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">data</span><span class="o">::</span><span class="n">LocationData</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">locationData</span><span class="p">)</span>
+<span class="w">    </span><span class="o">:</span><span class="w"> </span><span class="n">World</span><span class="w"> </span><span class="p">{</span><span class="n">locationData</span><span class="p">,</span><span class="w"> </span><span class="n">locationData</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">name</span><span class="p">}</span>
+<span class="p">{}</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -13259,25 +13254,20 @@ more of the following apply:</p>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered" id="cell-id=839bda6bc3b46c09">
-<div class="input">
-<div class="prompt input_prompt">In [2]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-c++"><pre><span></span><span class="c1">// ```cpp</span>
-<span class="c1">// int main()</span>
-<span class="c1">// {</span>
-<span class="c1">//     World world{World(data::simpleLocations)};</span>
-<span class="c1">//     std::cout &lt;&lt; world &lt;&lt; '\n';</span>
-<span class="c1">//     for (const auto&amp; [name, location] : world.GetLocations()) {</span>
-<span class="c1">//         std::cout &lt;&lt; location &lt;&lt; '\n';</span>
-<span class="c1">//     }</span>
+<div class="cell border-box-sizing text_cell rendered celltag_subslide" id="cell-id=3392774bd87b9280"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="n">World</span><span class="w"> </span><span class="n">world</span><span class="p">{</span><span class="n">World</span><span class="p">(</span><span class="n">data</span><span class="o">::</span><span class="n">simpleLocations</span><span class="p">)};</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">world</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">'\n'</span><span class="p">;</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="o">&amp;</span><span class="w"> </span><span class="p">[</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">location</span><span class="p">]</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">world</span><span class="p">.</span><span class="n">GetLocations</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">location</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">'\n'</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
 
-<span class="c1">//     return 0;</span>
-<span class="c1">// }</span>
-<span class="c1">// ```</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>

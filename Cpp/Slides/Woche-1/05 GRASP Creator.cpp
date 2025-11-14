@@ -110,7 +110,7 @@
 // }
 // ```
 
-// %%
+// %% [markdown]
 // ```cpp
 // World::World(const std::vector<data::LocationData>& locationData)
 //     : World {locationData, locationData[0].name}
@@ -127,7 +127,7 @@
 // using namespace adventure_sk;
 // ```
 
-// %%
+// %% [markdown]
 // ```cpp
 // int main()
 // {
@@ -136,7 +136,7 @@
 //     for (const auto& [name, location] : world.GetLocations()) {
 //         std::cout << location << '\n';
 //     }
-
+//
 //     return 0;
 // }
 // ```
