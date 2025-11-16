@@ -13461,48 +13461,51 @@ PrintingStockObserver PrintingObserver received update:
 RisingStockObserver RisingObserver received update:
 ============= Update 2 =============
 PrintingStockObserver PrintingObserver received update:
+  Banana: 114.472
 RisingStockObserver RisingObserver received update:
+  Banana: 0 -&gt; 114.472
 ============= Update 3 =============
 PrintingStockObserver PrintingObserver received update:
-  Banana: 111.004
+  Macrosoft: 287.642
 RisingStockObserver RisingObserver received update:
-  Banana: 0 -&gt; 111.004
+  Macrosoft: 0 -&gt; 287.642
 ============= Update 4 =============
 PrintingStockObserver PrintingObserver received update:
-  Macrosoft: 329.196
+  Macrosoft: 385.75
+  Banana: 130.779
 RisingStockObserver RisingObserver received update:
-  Macrosoft: 0 -&gt; 329.196
+  Macrosoft: 287.642 -&gt; 385.75
+  Banana: 114.472 -&gt; 130.779
 ============= Update 5 =============
 PrintingStockObserver PrintingObserver received update:
-  Banana: 105.235
+  BCD: 336.849
+  Billionz: 195.922
 RisingStockObserver RisingObserver received update:
+  BCD: 0 -&gt; 336.849
+  Billionz: 0 -&gt; 195.922
 ============= Update 6 =============
 PrintingStockObserver PrintingObserver received update:
-  Billionz: 165.581
-  Macrosoft: 343.234
-  Banana: 117
+  Banana: 143.174
 RisingStockObserver RisingObserver received update:
-  Billionz: 0 -&gt; 165.581
-  Macrosoft: 329.196 -&gt; 343.234
-  Banana: 105.235 -&gt; 117
+  Banana: 130.779 -&gt; 143.174
 ============= Update 7 =============
 PrintingStockObserver PrintingObserver received update:
-  BCD: 239.974
+  BCD: 359.809
 RisingStockObserver RisingObserver received update:
-  BCD: 0 -&gt; 239.974
+  BCD: 336.849 -&gt; 359.809
 ============= Update 8 =============
 PrintingStockObserver PrintingObserver received update:
-  Macrosoft: 284.792
 RisingStockObserver RisingObserver received update:
 ============= Update 9 =============
 PrintingStockObserver PrintingObserver received update:
-  Banana: 71.009
+  Billionz: 256.182
 RisingStockObserver RisingObserver received update:
+  Billionz: 195.922 -&gt; 256.182
 ============= Update 10 =============
 PrintingStockObserver PrintingObserver received update:
-  Banana: 82.687
+  Billionz: 226.128
+  BCD: 285.072
 RisingStockObserver RisingObserver received update:
-  Banana: 71.009 -&gt; 82.687
 </pre>
 </div>
 </div>
@@ -13540,33 +13543,35 @@ RisingStockObserver RisingObserver received update:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>============= Update 1 =============
 RisingStockObserver RisingObserver received update:
+  Billionz: 226.128 -&gt; 267.268
 ============= Update 2 =============
 RisingStockObserver RisingObserver received update:
+  Banana: 97.9321 -&gt; 117.61
 ============= Update 3 =============
 RisingStockObserver RisingObserver received update:
-  Billionz: 165.581 -&gt; 209.686
-  Macrosoft: 176.473 -&gt; 178.62
+  Banana: 117.61 -&gt; 157.339
 ============= Update 4 =============
 RisingStockObserver RisingObserver received update:
-  Billionz: 209.686 -&gt; 270.1
+  Billionz: 206.932 -&gt; 239.324
 ============= Update 5 =============
 RisingStockObserver RisingObserver received update:
-  Macrosoft: 178.62 -&gt; 231.644
+  Banana: 157.339 -&gt; 238.636
+  Macrosoft: 44.7025 -&gt; 45.1701
+  BCD: 271.51 -&gt; 381
 ============= Update 6 =============
 RisingStockObserver RisingObserver received update:
-  Macrosoft: 231.644 -&gt; 234.733
+  Macrosoft: 45.1701 -&gt; 71.9628
+  Billionz: 239.324 -&gt; 248.307
 ============= Update 7 =============
 RisingStockObserver RisingObserver received update:
-  BCD: 201.76 -&gt; 232.846
 ============= Update 8 =============
 RisingStockObserver RisingObserver received update:
-  Billionz: 169.504 -&gt; 223.2
 ============= Update 9 =============
 RisingStockObserver RisingObserver received update:
-  BCD: 232.846 -&gt; 343.405
-  Macrosoft: 177.439 -&gt; 222.322
+  Macrosoft: 52.7406 -&gt; 65.2753
 ============= Update 10 =============
 RisingStockObserver RisingObserver received update:
+  BCD: 381 -&gt; 419.94
 </pre>
 </div>
 </div>
@@ -13936,17 +13941,17 @@ Observers after attaching are: Observer-1 Observer-2
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Observers before notifying are: Observer-1 Observer-2
-Observer 1: Observing 0x750637e1b050.
+Observer 1: Observing 0x779cffe91050.
   Old observer state is [].
   New observer state is [1].
-Observer 2: Observing 0x750637e1b050.
+Observer 2: Observing 0x779cffe91050.
   Old observer state is [].
   New observer state is [1].
 Observers before notifying are: Observer-1 Observer-2
-Observer 1: Observing 0x750637e1b050.
+Observer 1: Observing 0x779cffe91050.
   Old observer state is [1].
   New observer state is [1, 2].
-Observer 2: Observing 0x750637e1b050.
+Observer 2: Observing 0x779cffe91050.
   Old observer state is [1].
   New observer state is [1, 2].
 </pre>
@@ -13973,7 +13978,7 @@ Observer 2: Observing 0x750637e1b050.
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Observers after detaching are: Observer-2
 Observers before notifying are: Observer-2
-Observer 2: Observing 0x750637e1b050.
+Observer 2: Observing 0x779cffe91050.
   Old observer state is [1, 2].
   New observer state is [1, 2, 3].
 </pre>
@@ -14001,7 +14006,7 @@ Observer 2: Observing 0x750637e1b050.
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Observers after attaching are: Observer-2 Observer-1
 Observers before notifying are: Observer-&lt;deleted&gt; Observer-1
-Observer 1: Observing 0x750637e1b050.
+Observer 1: Observing 0x779cffe91050.
   Old observer state is [1, 2].
   New observer state is [1, 2, 3, 4].
 </pre>

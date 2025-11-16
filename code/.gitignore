@@ -1,0 +1,6 @@
+build*/
+cmake-build-*/
+clion-*/
+out/
+CMakeFiles/
+!builder/

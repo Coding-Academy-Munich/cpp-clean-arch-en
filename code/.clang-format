@@ -1,0 +1,35 @@
+---
+BasedOnStyle: Microsoft
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+BreakBeforeBraces: Linux
+ColumnLimit: 92
+CompactNamespaces: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+FixNamespaceComments: true
+IfMacros:
+  - 'TEST_CASE'
+  - 'SECTION'
+  - 'SCENARIO'
+  - 'GIVEN'
+  - 'WHEN'
+  - 'THEN'
+  - 'AND_WHEN'
+  - 'AND_THEN'
+IndentWidth: 4
+InsertBraces: true
+PointerAlignment: Left
+ReflowComments: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: All
+AllowAllArgumentsOnNextLine: true
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BraceWrapping:
+  BeforeElse: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+...
